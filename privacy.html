@@ -121,6 +121,14 @@
   <ul>
     <li>Crash reports and error logs, processed through <strong>Sentry</strong>,
       and sent only if you enable crash reporting.</li>
+    <li>Optional product usage analytics (which features and screens you use,
+      funnel steps such as card creation or purchases), processed through
+      <strong>PostHog</strong> (EU hosting) and sent only if you opt in under
+      <em>Settings → Share usage analytics</em>. Events use a random pseudonymous
+      identifier stored on your device and are not linked to your account,
+      email, or username. We do not send your photos, card titles, location, or
+      other content in analytics events. Data is retained for up to
+      <strong>30 days</strong>.</li>
   </ul>
   <h3>Technical data</h3>
   <ul>
@@ -147,6 +155,7 @@
     <tr><td>Process subscriptions and credit purchases and unlock paid features</td><td>Performance of a contract (Art. 6(1)(b))</td></tr>
     <tr><td>Show and reward advertising; use advertising identifiers</td><td>Consent (Art. 6(1)(a))</td></tr>
     <tr><td>Crash and error diagnostics</td><td>Consent (Art. 6(1)(a))</td></tr>
+    <tr><td>Optional product usage analytics (feature and funnel events)</td><td>Consent (Art. 6(1)(a))</td></tr>
     <tr><td>Security, abuse, and fraud prevention (including rewarded-ad verification)</td><td>Legitimate interests (Art. 6(1)(f))</td></tr>
   </table>
 
@@ -161,6 +170,7 @@
     <tr><td>RevenueCat</td><td>Subscription and in-app purchase management</td></tr>
     <tr><td>Apple / Google</td><td>Sign-in, app distribution, and in-app purchases</td></tr>
     <tr><td>Sentry</td><td>Crash and error reporting (EU region; only with your consent)</td></tr>
+    <tr><td>PostHog</td><td>Optional product usage analytics (EU hosting; only with your consent)</td></tr>
   </table>
 
   <h2>6. Advertising and consent</h2>
@@ -197,6 +207,10 @@
       are kept for as long as your account exists.</li>
     <li><strong>Crash and error diagnostics</strong> (Sentry): up to 90 days,
       and only if you enabled crash reporting.</li>
+    <li><strong>Product usage analytics</strong> (PostHog): up to
+      <strong>30 days</strong>, and only if you opted in. You can withdraw
+      consent at any time under <em>Settings → Share usage analytics</em>; this
+      stops further collection immediately.</li>
     <li><strong>Advertising</strong>: advertising identifiers are used only
       transiently to serve ads; a record of your consent choices is kept for as
       long as needed to demonstrate compliance.</li>
@@ -227,6 +241,11 @@
     App under <em>Settings -> Notifications</em>, or disable them entirely in
     your device's system settings. Disabling notifications does not limit any
     other App feature.
+  </p>
+  <p>
+    You can turn optional usage analytics on or off at any time under
+    <em>Settings -> Share usage analytics</em>. Crash reporting can be toggled
+    separately under <em>Settings -> Send crash reports</em>.
   </p>
 
   <h2>10. Children</h2>
